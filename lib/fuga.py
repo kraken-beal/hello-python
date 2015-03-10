@@ -9,3 +9,6 @@ class Fuga:
     def poem(self):
         return "spam spam spam"
 
+    def haiku(self):
+        return "はむたまご はむはむたまご はむたまご"
+
