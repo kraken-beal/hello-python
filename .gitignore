@@ -1,0 +1,26 @@
+#
+# comment
+#
+
+# editer temp file
+*~
+
+# os depend file
+.DS_Store
+.Thumbs.db
+
+# python dir 
+tests/__pycache__/
+lib/__pycache__/
+
+# all .cache .backup and .tmp file
+*.cache
+*.backup
+*.back
+*.tmp
+*.swap
+*~
+
+#
+*.o
+
