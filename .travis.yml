@@ -11,7 +11,7 @@ install:
 script:
 #- coverage run --source=hoge_test setup.py test
   - cd tests
-  - python -m unittest discover
+  - python -m unittest *.py
 
 after_success:
 #- coveralls
