@@ -21,7 +21,7 @@ class FugaTest(unittest.TestCase):
 
 def suite():
     suite = unittest.TestSuite()
-    suite.addTests(unittest.makeSuite(HogeTest))
+    suite.addTests(unittest.makeSuite(FugaTest))
     return suite
 
 
